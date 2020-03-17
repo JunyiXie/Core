@@ -304,6 +304,10 @@ module Pod
         end
       end
 
+      def _validate_on_demand_resources(on_demand_resource)
+        puts "_validate_on_demand_resources"
+      end
+
       # Performs validations related to the `libraries` attribute.
       #
       def _validate_libraries(libs)
